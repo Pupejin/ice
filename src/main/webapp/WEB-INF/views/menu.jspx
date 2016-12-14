@@ -7,5 +7,9 @@
             <menu:item id="i_customer_new" messageCode="global_menu_new" url="/customers?form" z="d9+YIotZHp6KZLGKwwnMVzPvh8k="/>
             <menu:item id="i_customer_list" messageCode="global_menu_list" url="/customers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Yo9cUtyc7EUvbxwQ7EoeqXWaVJM="/>
         </menu:category>
+        <menu:category id="c_lab" z="SpJ/3qv/uNJnkr/wRXJYBrV0VGk=">
+            <menu:item id="i_lab_new" messageCode="global_menu_new" url="/labs?form" z="osOyF5j5vj3hYqsVcfCkykQzpnc="/>
+            <menu:item id="i_lab_list" messageCode="global_menu_list" url="/labs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZEF+QCBfylO8PbCDR5D36yFBWu4="/>
+        </menu:category>
     </menu:menu>
 </div>

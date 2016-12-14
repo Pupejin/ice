@@ -14,3 +14,9 @@ field string --fieldName name
 web mvc all --package com.spring.web
 exit
 // Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-12-14 01:39:21
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-12-14 12:38:44
+entity jpa --class com.spring.domain.Lab
+field reference --fieldName name --type com.spring.domain.Customer
+web mvc all --package com.spring.web
+exit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-12-14 12:40:02
